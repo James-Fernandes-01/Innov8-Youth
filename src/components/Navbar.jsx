@@ -29,8 +29,6 @@ export default function Navbar() {
                     <div className="hidden md:flex items-center space-x-6 lg:space-x-8">  
                         <a href="#about" className="font-medium hover:text-gray-300 text-sm lg:text-base">About</a>
                      
-                        <a href="#schedule" className="font-medium hover:text-gray-300 text-sm lg:text-base">Schedule</a>
-                    
                         <a href="#testimonials" className="font-medium hover:text-gray-300 text-sm lg:text-base">Testimonials</a>
 
                         <a href="#volunteers" className='font-medium hover:text-gray-300 text-sm lg:text-base'>Volunteers</a>
@@ -54,9 +52,9 @@ export default function Navbar() {
                     <div className='px-4 py-4 sm:py-6 space-y-3 sm:space-y-4 text-center'>
                         <a href="#about" className="block font-medium hover:text-gray-300 text-sm lg:text-base" onClick={() => setMobileMenuIsOpen(false)}>About</a>
                      
-                        <a href="#schedule" className="block font-medium hover:text-gray-300 text-sm lg:text-base" onClick={() => setMobileMenuIsOpen(false)}>Schedule</a>
-                    
                         <a href="#testimonials" className="block font-medium hover:text-gray-300 text-sm lg:text-base" onClick={() => setMobileMenuIsOpen(false)}>Testimonials</a>
+                    
+                        <a href="#volunteers" className='font-medium hover:text-gray-300 text-sm lg:text-base'>Volunteers</a>
                     </div>
                 </div>
             )}

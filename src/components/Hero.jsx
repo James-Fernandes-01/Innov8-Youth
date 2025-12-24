@@ -12,14 +12,15 @@ export default function Hero() {
     `;
 
     return (
-    <section className='relative min-h-screen pt-25 px-4 md:px-6 lg:px-8 overflow-hidden grid grid-flow-col grid-rows-2 gap-4'>
+    <section className='relative min-h-screen pt-25 px-4 md:px-6 lg:px-8 overflow-hidden grid grid-flow-col grid-rows-2 md:grid-rows-1 gap-4'>
 
-        <div className="relative max-w-3xl px-4 sm:px-6 lg:px-8 row-span-2">
+        <div className="relative max-w-3xl px-4 sm:px-6 lg:px-8 row-span-1 md:row-span-2">
             <h1 className="text-4xl font-bold text-white">Welcome to Innov8Youth</h1>
-            <p className="mt-2 text-lg text-white">Empowering the Next Generation of Innovators with Robotics.</p>
+            <p className="text-lg text-white">Empowering the Next Generation of Innovators with Robotics.</p>
+            <img src="/temp_Hero.jpg" alt="Mentor working with robotics student" className='mt-2 rounded-lg shadow-lg'/>
         </div>
 
-        <div className="max-w-2xl mx-auto row-span-1"
+        <div className="max-w-2xl mx-auto row-2 py-10 md:py-19"
         dangerouslySetInnerHTML={{ __html: embedCode }} />
 
     </section>
