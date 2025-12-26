@@ -4,6 +4,7 @@ import About from "./components/About.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import Footer from "./components/Footer.jsx";
 import Volunteers from "./components/Volunteers.jsx";
+import Contact from "./components/Contact.jsx";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Navbar />
     <Hero />
     <About />
+    <Contact />
     <Volunteers />
     <Testimonials />
     <Footer />

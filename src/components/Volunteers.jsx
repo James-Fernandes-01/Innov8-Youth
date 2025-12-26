@@ -4,7 +4,7 @@ const volunteers = [
         title: "Co-Founder",
         name: "Jia Modi",
         description: "Hello! I'm Jia, a high school sophomore with a passion for STEM and teaching. As a co-founder of Innov8Youth, I hope to share my passion for robotics and other STEM fields by mentoring younger students and helping them foster a love for engineering and problem solving. I aim to ignite the same excitement and confidence in STEM that has shaped my own journey!",
-        image: "/Jia_Modi.jpg",
+        image: "/Jia_1.JPEG",
         tags: ["VEX States Champion","VEX Worlds Competitor"],
     },
 
@@ -23,7 +23,7 @@ const volunteers = [
         title: "Co-Founder",
         name: "Arjun Modi",
         description: "Hello! I'm Arjun, a high school freshman who loves engineering and robotics. With hands-on experience in both VEX and FIRST Robotics, I'm excited to share my passion and help younger students discover the joy of building and programming robots.",
-        image: "/Arjun_Modi.png",
+        image: "/Arjun.jpeg",
         tags: ["VEX States Champion", "VEX Worlds Competitor and Award Recipient", "FIRST Robotics Competition Team 8592 Mechanical Subteam"],
     }
 
