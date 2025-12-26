@@ -7,7 +7,7 @@ import Volunteers from "./components/Volunteers.jsx";
 
 
 function App() {
-  return (<div className="min-h-screen bg-sky-200 text-white overflow-hidden">
+  return (<div className="min-h-screen bg-sky-300 text-white overflow-hidden">
     <Navbar />
     <Hero />
     <About />

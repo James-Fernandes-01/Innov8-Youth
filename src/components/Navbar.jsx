@@ -8,10 +8,8 @@ export default function Navbar() {
 
     return(
         <nav className="fixed top-0 w-full z-50 transition-all duration-300 bg-sky-200/20 backdrop-blur-sm">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-14 sm:h-16 md:h-20">
-                    
-                    
                     
                     <div className="flex items-center space-x-1 group cursor-pointer">
                         <div>
@@ -26,7 +24,7 @@ export default function Navbar() {
                     </div>
 
                     {/* Navigation Links */}
-                    <div className="hidden md:flex items-center space-x-6 lg:space-x-8">  
+                    <div className="hidden md:flex space-x-6 text-lg items-center ml-6 md:ml-10">  
                         <a href="#about" className="font-medium hover:text-gray-300 text-sm lg:text-base">About</a>
                      
                         <a href="#testimonials" className="font-medium hover:text-gray-300 text-sm lg:text-base">Testimonials</a>
