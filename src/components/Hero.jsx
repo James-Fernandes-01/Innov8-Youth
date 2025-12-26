@@ -4,24 +4,33 @@ export default function Hero() {
     {/*Tracking mouse position for interactive effects*/}
     const [mousePosition, setMousePosition] = useState({x: 0, y: 0});
     
-    
-
-    const embedCode = `
-    <iframe src="https://calendar.google.com/calendar/embed?height=500&wkst=1&ctz=America%2FNew_York&showPrint=0&src=MWE4NWIxNTg4MWIxY2Y0YjQwZDJjYTg1N2VlZDQ0Mzk2ZjA0ZWE3ZTM5YTNhNTk4YjYwYzVhYjJlYWMyY2EzMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23f09300" 
-    style="border-width:0" width="500" height="500" frameborder="0" scrolling="no" overflow-auto></iframe>
-    `;
+    const calendarSrc = "https://calendar.google.com/calendar/embed?wkst=1&ctz=America%2FNew_York&showPrint=0&src=MWE4NWIxNTg4MWIxY2Y0YjQwZDJjYTg1N2VlZDQ0Mzk2ZjA0ZWE3ZTM5YTNhNTk4YjYwYzVhYjJlYWMyY2EzMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23f09300";
 
     return (
-    <section className='relative min-h-screen pt-25 px-4 md:px-6 lg:px-8 overflow-hidden grid grid-flow-col grid-rows-2 md:grid-rows-1 gap-4'>
-
-        <div className="relative max-w-3xl px-4 sm:px-6 lg:px-8 row-span-1 md:row-span-2">
+    <section className='grid grid-cols-1 md:grid-cols-2 relative min-h-screen pt-25 px-4 md:px-6 lg:px-8 overflow-hidden flex flex-col md:flex-row items-start gap-8'>
+        {/* content column */}
+        <div className="flex-1 px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl font-bold text-white">Welcome to Innov8Youth</h1>
             <p className="text-lg text-white">Empowering the Next Generation of Innovators with Robotics.</p>
             <img src="/temp_Hero.jpg" alt="Mentor working with robotics student" className='mt-2 rounded-lg shadow-lg'/>
         </div>
 
-        <div className="max-w-2xl mx-auto row-2 py-10 md:py-19"
-        dangerouslySetInnerHTML={{ __html: embedCode }} />
+        {/* calendar column (narrow on md+) */}
+        <div className="w-full mx-auto my-auto">
+            <div className="bg-white/5 rounded-lg overflow-hidden shadow-lg border border-white/10 p-2">
+                <div className="w-full h-64 md:h-100 xl:h-120">
+                    <iframe
+                        src={calendarSrc}
+                        title="Innov8Youth Calendar"
+                        className="w-full h-full rounded-md"
+                        style={{ border: 0 }}
+                        loading="lazy"
+                    />
+                </div>
+            </div>
+        </div>
+
+        
 
     </section>
     );
