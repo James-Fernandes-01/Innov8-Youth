@@ -23,8 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-#ignored images
-/public/Arjun_Modi.png
-/public/Jia_Modi.jpg
-/public/James_Fernandes.PNG
-/public/temp_Hero.jpg
