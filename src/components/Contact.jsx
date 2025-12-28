@@ -26,7 +26,7 @@ export default function Contact() {
                 </div>
 
                 <div className="flex flex-col items-center md:items-start gap-6">
-                    <div className="w-full text-lg bg-white/5 rounded-lg overflow-hidden shadow-lg border border-white/10 p-4">
+                    <div className="text-center w-full text-lg bg-white/5 rounded-lg overflow-hidden shadow-lg border border-white/10 p-4">
                         <p className="text-2xl font-semibold">Get In Touch</p>
                         <div className="mt-4 text-lg">
                             <Mail className="h-6 w-6 inline-block" />
