@@ -4,7 +4,7 @@ const volunteers = [
         title: "Co-Founder",
         name: "Jia Modi",
         description: "Hello! I'm Jia, a high school sophomore with a passion for STEM and teaching. As a co-founder of Innov8Youth, I hope to share my passion for robotics and other STEM fields by mentoring younger students and helping them foster a love for engineering and problem solving. I aim to ignite the same excitement and confidence in STEM that has shaped my own journey!",
-        image: "/Jia_Modi.jpg",
+        image: "/Jia_1.JPEG",
         tags: ["VEX States Champion","VEX Worlds Competitor"],
     },
 
@@ -12,8 +12,7 @@ const volunteers = [
         id: 2,
         title: "Co-Founder",
         name: "James Fernandes",
-        description: "Hello! I'm James, a high school Junior that loves everything robotics." +
-        " My goal is to share my experiences in STEM with others and help them grow their skills and confidence in this amazing field.",
+        description: "Hello! I'm James, a high school junior that loves everything about robotics. I’m interested in all aspects involving mechanical, electrical, software, and business components. My goal is to share my experiences in STEM with others and help them grow their skills and confidence in this expanding and increasingly important field.",
         image: "/James_Fernandes.PNG",
         tags: ["FIRST Robotics Competition Team 8592 Mechanical Subteam"],
     },
@@ -23,7 +22,7 @@ const volunteers = [
         title: "Co-Founder",
         name: "Arjun Modi",
         description: "Hello! I'm Arjun, a high school freshman who loves engineering and robotics. With hands-on experience in both VEX and FIRST Robotics, I'm excited to share my passion and help younger students discover the joy of building and programming robots.",
-        image: "/Arjun_Modi.png",
+        image: "/Arjun.jpeg",
         tags: ["VEX States Champion", "VEX Worlds Competitor and Award Recipient", "FIRST Robotics Competition Team 8592 Mechanical Subteam"],
     }
 
@@ -33,8 +32,8 @@ export default function Volunteers() {
     return(
         <section id="volunteers" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
             <h2 className="text-3xl font-extrabold text-center">Our Volunteers</h2>
-            <p className="mt-4 text-lg text-center">
-                Meet our volunteers!
+            <p className="mt-4 text-xl text-center font-medium">
+                Meet the Team!
             </p>
 
             <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

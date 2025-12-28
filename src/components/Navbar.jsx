@@ -5,7 +5,7 @@ export default function Navbar() {
 
     {/*Tracking state of whether mobile menu is open or not*/}
     const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
-
+    
     return(
         <nav className="fixed top-0 w-full z-50 transition-all duration-300 bg-sky-200/20 backdrop-blur-sm">
             <div className="mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,7 +27,7 @@ export default function Navbar() {
                     <div className="hidden md:flex space-x-6 text-lg items-center ml-6 md:ml-10">  
                         <a href="#about" className="font-medium hover:text-gray-300 text-sm lg:text-base">About</a>
                      
-                        <a href="#testimonials" className="font-medium hover:text-gray-300 text-sm lg:text-base">Testimonials</a>
+                        <a href="#contact" className="font-medium hover:text-gray-300 text-sm lg:text-base">Contact</a>
 
                         <a href="#volunteers" className='font-medium hover:text-gray-300 text-sm lg:text-base'>Volunteers</a>
                     </div>
