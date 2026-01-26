@@ -36,7 +36,7 @@ export default function Contact() {
 
                     <div className="w-full overflow-hidden rounded-lg">
                         <img
-                            src="/temp_image.jpg"
+                            src="/contactSectionImage.jpg"
                             alt="Robotics students working"
                             className="w-full h-64 md:h-80 lg:h-96 object-cover rounded-lg shadow-lg"
                             loading="lazy"
